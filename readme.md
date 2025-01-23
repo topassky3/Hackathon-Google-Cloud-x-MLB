@@ -28,7 +28,7 @@ def main_components():
         "📝 Generación de informes con Gemini",
         "🕰️ Sistema de comparación histórica"
     ]
-
+```
 ## 📐 Arquitectura de la Solución
 
 graph LR
