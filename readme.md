@@ -39,3 +39,9 @@ def main_components():
 ### 2. Pipeline Principal (main.py)
 ```python pipeline_mlb.py```
 
+Resultados:
+
+Archivo	Registros	Columnas	Descripción
+mlb_games_stats.csv	1,111	14	Estadísticas por juego
+mlb_games_boxscore.csv	51,151	11	Stats individuales de jugadores
+
