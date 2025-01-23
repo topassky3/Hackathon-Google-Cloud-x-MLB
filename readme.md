@@ -36,5 +36,6 @@ def main_components():
 
 # Output: mlb_game_data.json con lista de 218,743 gamePks
 
-
+### 2. Pipeline Principal (main.py)
+```python pipeline_mlb.py```
 
