@@ -29,16 +29,12 @@ def main_components():
         "🕰️ Sistema de comparación histórica"
     ]
 ```
-## 📐 Arquitectura de la Solución
+## 🔄 Flujo de Trabajo
 
-graph LR
-    A[API MLB] --> B[Extractor de Datos]
-    B --> C{{GUMBO Feed}}
-    C --> D[BigQuery]
-    D --> E[Feature Engineering]
-    E --> F[RandomForest]
-    F --> G{{Gemini}}
-    F --> H[Visualizador]
-    G --> I[Reporte Predictivo]
+### 1. Generación de GamePKs (Identificadores Únicos de Juegos)
+```python fetch_game_data.py```
+
+# Output: mlb_game_data.json con lista de 218,743 gamePks
+
 
 
