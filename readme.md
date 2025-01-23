@@ -29,3 +29,16 @@ def main_components():
         "🕰️ Sistema de comparación histórica"
     ]
 
+## 📐 Arquitectura de la Solución
+
+graph LR
+    A[API MLB] --> B[Extractor de Datos]
+    B --> C{{GUMBO Feed}}
+    C --> D[BigQuery]
+    D --> E[Feature Engineering]
+    E --> F[RandomForest]
+    F --> G{{Gemini}}
+    F --> H[Visualizador]
+    G --> I[Reporte Predictivo]
+
+
