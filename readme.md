@@ -36,7 +36,7 @@ def main_components():
 
 # Output: mlb_game_data.json con lista de 218,743 gamePks
 
-### 2. Pipeline Principal (main.py)
+### 2. Pipeline Principal 
 ```python pipeline_mlb.py```
 
 Resultados:
@@ -45,3 +45,19 @@ Archivo	Registros	Columnas	Descripción
 mlb_games_stats.csv	1,111	14	Estadísticas por juego
 mlb_games_boxscore.csv	51,151	11	Stats individuales de jugadores
 
+### 3. Carga a BigQuery
+```python upload_bigquery.py```
+Requisito: Archivo credenciales.json válido en Google Cloud.
+
+### 4. Entrenamiento del Modelo & Reportes
+Script: `train_model.py**
+Requisito: Archivo credenciales.json válido en Google Cloud.
+Clave de gemini: <API KEY>
+
+Salidas:
+
+modelo_prospectos.pkl: Modelo serializado
+
+reporte_gemini.md: Análisis interpretativo generado por IA
+
+curvas_proyeccion.png: Visualización de escenarios
