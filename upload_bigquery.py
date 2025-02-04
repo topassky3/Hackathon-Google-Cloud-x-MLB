@@ -84,8 +84,8 @@ def main():
     stats_file = "mlb_games_stats.csv"  # Archivo stats
     
     # IDs de las tablas y dataset en BigQuery
-    project_id = "maps-3d-439423"  # El ID del proyecto en las credenciales
-    dataset_id = "mlb_dataset"  # Cambia esto al dataset que configuraste en BigQuery
+    project_id = "#id_project"  # El ID del proyecto en las credenciales
+    dataset_id = "id_dataset"  # Cambia esto al dataset que configuraste en BigQuery
     table_id_boxscore = f"{project_id}.{dataset_id}.games_boxscore"
     table_id_stats = f"{project_id}.{dataset_id}.games_stats"
     

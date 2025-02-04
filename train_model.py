@@ -319,7 +319,7 @@ def main():
     set_credentials(credentials_path)
 
     # 2. Configurar la API key de Gemini (reemplaza con la tuya)
-    configure_gemini("AIzaSyCW-_8k6OacvjTUSzDiKtijy6W2y1ZhaYk")
+    configure_gemini("Api-key")
 
     # 3. Verificar o crear dataset en BigQuery
     project_id = "maps-3d-439423"
