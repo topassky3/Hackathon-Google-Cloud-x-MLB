@@ -322,8 +322,8 @@ def main():
     configure_gemini("Api-key")
 
     # 3. Verificar o crear dataset en BigQuery
-    project_id = "maps-3d-439423"
-    dataset_id = "mlb_dataset"
+    project_id = "project_id"
+    dataset_id = "dataset_id"
     create_dataset_if_not_exists(f"{project_id}.{dataset_id}")
 
     # 4. Cargar datos desde BigQuery
